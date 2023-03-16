@@ -64,7 +64,7 @@ if __name__ == '__main__':
 
     result_frame = ttk.Frame(root, padding=10)
     result_frame.grid()
-    result_label = ttk.Label(result_frame, text="aqui")
+    result_label = ttk.Label(result_frame, text="")
     result_label.grid(column=0, row=0)
 
     root.mainloop()
